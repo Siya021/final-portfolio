@@ -1,6 +1,6 @@
 import { Code, Palette, Globe } from 'lucide-react'
 
-export const skillCategories = [
+const skillCategories = [
   {
     title: 'Code',
     icon: Code,
@@ -29,3 +29,5 @@ export const skillCategories = [
     ]
   }
 ]
+
+export default skillCategories
